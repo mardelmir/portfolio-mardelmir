@@ -1,0 +1,39 @@
+# Build output
+build/
+dist/
+out/
+public/
+build-output/
+
+# Generated types
+.astro/
+
+# Dependencies
+node_modules/
+
+# Logs and databases
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# Environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+Thumbs.db
+
+# Jetbrains setting folder (editor)
+.vscode/
+.idea/
+
+# npm
+*.lock
+package-lock.json
